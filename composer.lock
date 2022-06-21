@@ -229,16 +229,16 @@
         },
         {
             "name": "studiow/http-exceptions",
-            "version": "v1.0.0",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/studiowbe/http-exceptions.git",
-                "reference": "d85da09cdfe1be1e7a96e5b4cd083a7b01007f94"
+                "reference": "16d413118a1a436de202979128c674a9c849c628"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/studiowbe/http-exceptions/zipball/d85da09cdfe1be1e7a96e5b4cd083a7b01007f94",
-                "reference": "d85da09cdfe1be1e7a96e5b4cd083a7b01007f94",
+                "url": "https://api.github.com/repos/studiowbe/http-exceptions/zipball/16d413118a1a436de202979128c674a9c849c628",
+                "reference": "16d413118a1a436de202979128c674a9c849c628",
                 "shasum": ""
             },
             "require": {
@@ -251,13 +251,16 @@
                 "guzzlehttp/psr7": "^2.4",
                 "phpunit/phpunit": "^9.2"
             },
-            "type": "project",
+            "type": "library",
             "autoload": {
                 "psr-4": {
                     "Studiow\\Http\\Exceptions\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
             "authors": [
                 {
                     "name": "Willem Wollebrants",
@@ -269,9 +272,9 @@
             "description": "HTTP exceptions",
             "support": {
                 "issues": "https://github.com/studiowbe/http-exceptions/issues",
-                "source": "https://github.com/studiowbe/http-exceptions/tree/v1.0.0"
+                "source": "https://github.com/studiowbe/http-exceptions/tree/v1.0.1"
             },
-            "time": "2022-06-21T09:07:35+00:00"
+            "time": "2022-06-21T12:21:39+00:00"
         }
     ],
     "packages-dev": [
