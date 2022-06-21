@@ -1,0 +1,10 @@
+vendor/
+.idea/
+.phpunit.result.cache
+.php_cs.cache
+.php-cs-fixer.cache
+public/
+*.log
+.env
+*.sqlite
+.DS_Store

@@ -1,0 +1,45 @@
+{
+  "name": "studiow/http-file-server",
+  "description": "File server",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Willem Wollebrants",
+      "email": "willem@studiow.be",
+      "homepage": "http://studiow.be",
+      "role": "Developer"
+    }
+  ],
+  "config": {
+    "sort-packages": true
+  },
+  "require": {
+    "php": "^7.4 || ^8.0",
+    "ext-json": "*",
+    "league/mime-type-detection": "^1.11",
+    "psr/http-factory": "^1.0",
+    "psr/http-message": "^1.0",
+    "psr/http-server-handler": "^1.0",
+    "studiow/http-exceptions": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Smartconnect\\Http\\FileServer\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Smartconnect\\Http\\FileServer\\Test\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit",
+    "cs": "vendor/bin/php-cs-fixer fix"
+  },
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "^3.8",
+    "guzzlehttp/psr7": "^2.4",
+    "http-interop/http-factory-guzzle": "^1.2",
+    "phpunit/phpunit": "^9.2"
+  }
+}
