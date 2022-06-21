@@ -1,7 +1,8 @@
 {
   "name": "studiow/http-file-server",
   "description": "File server",
-  "type": "project",
+  "type": "library",
+  "license": "MIT",
   "authors": [
     {
       "name": "Willem Wollebrants",
